@@ -1,1 +1,3 @@
-# FitChk
+FitChk is a website solely dedicated to make your shopping experience as seamless as possible without any hassle. The main aim is to provide a user experience that is very easy for a customer to navigate and find what they desire. With a wide range of products being displayed for men, women and children, FitChk not only looks appealing but also provides a variety to the customer. There are many brands on the website and our product database keeps getting bigger by the day!
+
+FitChk is still undergoing a few changes to ensure the user has the best experience. As of date, some issues still pertain on the website but we will soon be set to deploy and deliver our services. Thank You!
