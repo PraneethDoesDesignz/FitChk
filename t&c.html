@@ -1,0 +1,183 @@
+<html>
+
+    <head>
+        <title>Online Shopping Site for all your Clothing Apparels</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <section id="header"> 
+            <a href="#"> <img src="Images/LOGO.png" class="logo"> </a>
+
+            <div>
+                <ul id="navbar">
+                    <li> <a href="index.html"> Home </a></li>
+                    <li> <a class="active" href="shop.html"> Shop </a></li>
+                    <li> <a href="about.html"> About </a></li>
+                    <li> <a href="contact.html"> Contact </a></li>
+                    <li> <i class='bx bxs-cart-alt' id="cart-icon"></i><span id="cart-span">0</span></li>
+                </ul>
+                <div class="cart">
+                    <h2 class="cart-title">Your Cart</h2>
+                    <div class="cart-content">
+                    </div>
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">₹0</div>
+                    </div>
+                    <button onclick="window.location.href='checkout.html';" type="button" class="btn-buy">Check Out</button>
+                    <i class='bx bx-x' id="close-cart"></i>
+                </div>
+            </div>
+        </section>
+
+        <section id="page-header" class="about-header">
+            <h2>#T&C</h2>
+            <p>Here's What We Ask Of You! </p>
+        </section>
+
+        <section id="about-head" class="section-p1">
+            <div>
+                <h2>Terms And Conditions</h2>
+                <p> Last Updated: 10 May 2024<p>
+
+Welcome to FitChk, the online destination for trendy and comfortable clothing. These Terms and Conditions ("Terms") govern your use of the FitChk website and services. By accessing or using FitChk, you agree to be bound by these Terms. If you do not agree with any part of these Terms, you may not access or use FitChk.<p>
+
+<strong>1. Use of FitChk</strong><p>
+
+You must be at least 18 years old to use FitChk. By accessing or using FitChk, you represent and warrant that you are at least 18 years old.
+
+<p><strong>2. Account Registration</strong><p>
+
+In order to access certain features of FitChk, you may be required to create an account. When creating an account, you agree to provide accurate and complete information. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.
+
+<p><strong>3. Product Information</strong><p>
+
+We strive to provide accurate and up-to-date information about our products, including descriptions, prices, and availability. However, we do not warrant that product descriptions or other content on FitChk are accurate, complete, reliable, current, or error-free.
+
+<p><strong>4. Ordering and Payment</strong><p>
+
+By placing an order on FitChk, you agree to pay the total amount specified at checkout, including any applicable taxes and shipping fees. Payment must be made using a valid credit or debit card or other accepted payment methods.
+
+<p><strong>5. Shipping and Returns</strong><p>
+
+We aim to process and ship orders in a timely manner. However, we do not guarantee delivery times and are not responsible for delays caused by shipping carriers or other factors beyond our control. For information about our shipping and return policies, please refer to our Shipping and Returns page.
+
+<p><strong>6. Intellectual Property</strong><p>
+
+All content on FitChk, including text, graphics, logos, images, and software, is the property of FitChk or its licensors and is protected by copyright, trademark, and other intellectual property laws. You may not use, reproduce, modify, distribute, or display any content from FitChk without our prior written consent.
+
+<p><strong>7. Limitation of Liability</strong><p>
+
+To the fullest extent permitted by applicable law, FitChk and its affiliates, officers, directors, employees, agents, and licensors shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to lost profits, arising out of or in connection with your use of FitChk.
+
+<p><strong>8. Indemnification</strong><p>
+
+You agree to indemnify and hold harmless FitChk and its affiliates, officers, directors, employees, agents, and licensors from and against any claims, liabilities, damages, losses, and expenses, including reasonable attorneys' fees, arising out of or in connection with your use of FitChk or any violation of these Terms.
+
+<p><strong>9. Changes to Terms</strong><p>
+
+We reserve the right to modify or replace these Terms at any time. Any changes will be effective immediately upon posting the revised Terms on FitChk. Your continued use of FitChk following the posting of any changes to these Terms constitutes acceptance of those changes.
+
+<p><strong>10. Governing Law</strong><p>
+
+These Terms shall be governed by and construed in accordance with the laws of Jurisdiction, without regard to its conflict of law principles.
+
+<p><strong>11. Contact Us</strong><p>
+
+If you have any questions or concerns about these Terms, please contact us at contact@example.com<br>
+
+<h4 align="center"><b>By accessing or using FitChk, you agree to be bound by these Terms.<br>Thank you for choosing FitChk!</b></h4>
+            </div>
+        </section>
+        
+        <section id="newsletter" class="section-p1 section-m1">
+            <div class="newstext">
+                <h4> Sign Up For Newsletters!</h4>
+                <p>Get E-mail Updates About Our <span>Latest Offers and Drops!</span></p>
+            </div>
+            <div class="form">
+                <form name="submit-to-google-sheet">
+                    <input type="email" name="Email" placeholder="Your E-mail Address" required>
+                    <button type="sumbit"><img src="Images/send-icon.png" width="30px"></button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </section>
+
+        <hr style="width: 50%; height: 2.5px; margin-left: 50px; background-color: black;">
+        <br> <hr style="width: 50%; height: 2.5px; margin-left: 45%; background-color: black">
+        
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="Images/LOGO.png">
+                <h4><br> Contact Us</h4>
+                <p><strong>Address:</strong> GCET Cheeryal(V), Keesara(M), Telangana-501 301</p>
+                <p><strong>Phone:</strong> +91 1234567890</p>
+                <p><strong>Hours:</strong> 10:00AM to 10PM, Mon-Sat</p>
+                <div class="follow">
+                    <h4> Follow Us!</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <h4>About</h4>
+                <a href="about.html"> About Us</a>
+                <a href="#"> Delivery Information</a>
+                <a href="privacypol.html"> Privacy Policy</a>
+                <a href="t&c.html"> Terms And Conditions</a>
+                <a href="contact.html"> Contact Us</a>
+            </div>
+
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="login.html"> Sign in</a>
+                <a href="#">Track My Order</a>
+                <a href="contact.html">Help</a>
+            </div>
+
+            <div class="col install">
+                <h4>Install App</h4>
+                <p> From App Store Or Google Play</p>
+                <div class="row">
+                    <img src="Images/app.jpg">
+                    <img src="Images/play.jpg">
+                </div>
+            <p> Secured Payment Using </p>
+            <img src="Images/pay.png"> <p></p>
+            <img src="Images/upi.png">
+            </div>
+            <div class="copyright">
+                <h4>© 2024, FitChk // Your Ultimate Shopping Companion</h5>
+            </div>
+        </footer>
+    
+        <script src="cart.js"></script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbw7N5q7I8Ys4ySAo-2eXI8ySmxeiPZaQ83QosEBP1LjtXsW1NagK6THEFRiT45vLtwkPw/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Thank You For Subscribing!"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+    </body>
+</html>
